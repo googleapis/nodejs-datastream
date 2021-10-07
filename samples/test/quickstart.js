@@ -29,22 +29,21 @@ const execSync = cmd => cp.execSync(cmd, {encoding: 'utf-8'});
 
 const cwd = path.join(__dirname, '..');
 
-const client = new {DatastreamClient}();
+const client = new DatastreamClient();
+const location = 'us-central1';
 
 describe('Quickstart', () => {
-  //TODO: remove this if not using the projectId
-  // eslint-disable-next-line no-unused-vars
   let projectId;
 
   before(async () => {
-    // eslint-disable-next-line no-unused-vars
     projectId = await client.getProjectId();
   });
 
   it('should run quickstart', async () => {
-    //TODO: remove this line
-    // eslint-disable-next-line no-unused-vars
-    const stdout = execSync('node ./quickstart.js', {cwd});
-    //assert(stdout, stdout !== null);
+    const stdout = execSync(
+      `node ./quickstart.js projects/${projectId}/locations/${location}`,
+      {cwd}
+    );
+    assert(stdout.includes(location));
   });
 });
