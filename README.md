@@ -58,27 +58,57 @@ npm install @google-cloud/datastream
 ### Using the client library
 
 ```javascript
-// Imports the Google Cloud client library
+/**
+ * TODO(developer): Uncomment these variables before running the sample.
+ */
+/**
+ *  Required. The parent that owns the collection of connection profiles.
+ */
+// const parent = 'abc123'
+/**
+ *  Maximum number of connection profiles to return.
+ *  If unspecified, at most 50 connection profiles will be returned.
+ *  The maximum value is 1000; values above 1000 will be coerced to 1000.
+ */
+// const pageSize = 1234
+/**
+ *  Page token received from a previous `ListConnectionProfiles` call.
+ *  Provide this to retrieve the subsequent page.
+ *  When paginating, all other parameters provided to `ListConnectionProfiles`
+ *  must match the call that provided the page token.
+ */
+// const pageToken = 'abc123'
+/**
+ *  Filter request.
+ */
+// const filter = 'abc123'
+/**
+ *  Order by fields for the result.
+ */
+// const orderBy = 'abc123'
 
-// remove this line after package is released
-// eslint-disable-next-line node/no-missing-require
-const {DatastreamClient} = require('@google-cloud/datastream');
+// Imports the Datastream library
+const {DatastreamClient} = require('@google-cloud/datastream').v1alpha1;
 
-// TODO(developer): replace with your prefered project ID.
-// const projectId = 'my-project'
+// Instantiates a client
+const datastreamClient = new DatastreamClient();
 
-// Creates a client
-// eslint-disable-next-line no-unused-vars
-const client = new {DatastreamClient}();
+async function listConnectionProfiles() {
+  // Construct request
+  const request = {
+    parent,
+  };
 
-//TODO(library generator): write the actual function you will be testing
-async function doSomething() {
- console.log('DPE! Change this code so that it shows how to use the library! See comments below on structure.')
- // const [thing] = await client.methodName({
- // });
- // console.info(thing);
+  // Run request
+  const iterable = await datastreamClient.listConnectionProfilesAsync(
+    request
+  );
+  for await (const response of iterable) {
+    console.log(response);
+  }
 }
-doSomething();
+
+listConnectionProfiles();
 
 ```
 
