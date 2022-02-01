@@ -19,8 +19,8 @@
 import * as v1 from './v1';
 import * as v1alpha1 from './v1alpha1';
 
-const DatastreamClient = v1alpha1.DatastreamClient;
-type DatastreamClient = v1alpha1.DatastreamClient;
+const DatastreamClient = v1.DatastreamClient;
+type DatastreamClient = v1.DatastreamClient;
 
 export {v1, v1alpha1, DatastreamClient};
 export default {v1, v1alpha1, DatastreamClient};
