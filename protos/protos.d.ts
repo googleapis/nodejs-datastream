@@ -400,175 +400,175 @@ export namespace google {
                 namespace Datastream {
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1.Datastream#listConnectionProfiles}.
+                     * Callback as used by {@link google.cloud.datastream.v1.Datastream|listConnectionProfiles}.
                      * @param error Error, if any
                      * @param [response] ListConnectionProfilesResponse
                      */
                     type ListConnectionProfilesCallback = (error: (Error|null), response?: google.cloud.datastream.v1.ListConnectionProfilesResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1.Datastream#getConnectionProfile}.
+                     * Callback as used by {@link google.cloud.datastream.v1.Datastream|getConnectionProfile}.
                      * @param error Error, if any
                      * @param [response] ConnectionProfile
                      */
                     type GetConnectionProfileCallback = (error: (Error|null), response?: google.cloud.datastream.v1.ConnectionProfile) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1.Datastream#createConnectionProfile}.
+                     * Callback as used by {@link google.cloud.datastream.v1.Datastream|createConnectionProfile}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CreateConnectionProfileCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1.Datastream#updateConnectionProfile}.
+                     * Callback as used by {@link google.cloud.datastream.v1.Datastream|updateConnectionProfile}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type UpdateConnectionProfileCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1.Datastream#deleteConnectionProfile}.
+                     * Callback as used by {@link google.cloud.datastream.v1.Datastream|deleteConnectionProfile}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type DeleteConnectionProfileCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1.Datastream#discoverConnectionProfile}.
+                     * Callback as used by {@link google.cloud.datastream.v1.Datastream|discoverConnectionProfile}.
                      * @param error Error, if any
                      * @param [response] DiscoverConnectionProfileResponse
                      */
                     type DiscoverConnectionProfileCallback = (error: (Error|null), response?: google.cloud.datastream.v1.DiscoverConnectionProfileResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1.Datastream#listStreams}.
+                     * Callback as used by {@link google.cloud.datastream.v1.Datastream|listStreams}.
                      * @param error Error, if any
                      * @param [response] ListStreamsResponse
                      */
                     type ListStreamsCallback = (error: (Error|null), response?: google.cloud.datastream.v1.ListStreamsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1.Datastream#getStream}.
+                     * Callback as used by {@link google.cloud.datastream.v1.Datastream|getStream}.
                      * @param error Error, if any
                      * @param [response] Stream
                      */
                     type GetStreamCallback = (error: (Error|null), response?: google.cloud.datastream.v1.Stream) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1.Datastream#createStream}.
+                     * Callback as used by {@link google.cloud.datastream.v1.Datastream|createStream}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CreateStreamCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1.Datastream#updateStream}.
+                     * Callback as used by {@link google.cloud.datastream.v1.Datastream|updateStream}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type UpdateStreamCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1.Datastream#deleteStream}.
+                     * Callback as used by {@link google.cloud.datastream.v1.Datastream|deleteStream}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type DeleteStreamCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1.Datastream#getStreamObject}.
+                     * Callback as used by {@link google.cloud.datastream.v1.Datastream|getStreamObject}.
                      * @param error Error, if any
                      * @param [response] StreamObject
                      */
                     type GetStreamObjectCallback = (error: (Error|null), response?: google.cloud.datastream.v1.StreamObject) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1.Datastream#lookupStreamObject}.
+                     * Callback as used by {@link google.cloud.datastream.v1.Datastream|lookupStreamObject}.
                      * @param error Error, if any
                      * @param [response] StreamObject
                      */
                     type LookupStreamObjectCallback = (error: (Error|null), response?: google.cloud.datastream.v1.StreamObject) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1.Datastream#listStreamObjects}.
+                     * Callback as used by {@link google.cloud.datastream.v1.Datastream|listStreamObjects}.
                      * @param error Error, if any
                      * @param [response] ListStreamObjectsResponse
                      */
                     type ListStreamObjectsCallback = (error: (Error|null), response?: google.cloud.datastream.v1.ListStreamObjectsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1.Datastream#startBackfillJob}.
+                     * Callback as used by {@link google.cloud.datastream.v1.Datastream|startBackfillJob}.
                      * @param error Error, if any
                      * @param [response] StartBackfillJobResponse
                      */
                     type StartBackfillJobCallback = (error: (Error|null), response?: google.cloud.datastream.v1.StartBackfillJobResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1.Datastream#stopBackfillJob}.
+                     * Callback as used by {@link google.cloud.datastream.v1.Datastream|stopBackfillJob}.
                      * @param error Error, if any
                      * @param [response] StopBackfillJobResponse
                      */
                     type StopBackfillJobCallback = (error: (Error|null), response?: google.cloud.datastream.v1.StopBackfillJobResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1.Datastream#fetchStaticIps}.
+                     * Callback as used by {@link google.cloud.datastream.v1.Datastream|fetchStaticIps}.
                      * @param error Error, if any
                      * @param [response] FetchStaticIpsResponse
                      */
                     type FetchStaticIpsCallback = (error: (Error|null), response?: google.cloud.datastream.v1.FetchStaticIpsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1.Datastream#createPrivateConnection}.
+                     * Callback as used by {@link google.cloud.datastream.v1.Datastream|createPrivateConnection}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CreatePrivateConnectionCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1.Datastream#getPrivateConnection}.
+                     * Callback as used by {@link google.cloud.datastream.v1.Datastream|getPrivateConnection}.
                      * @param error Error, if any
                      * @param [response] PrivateConnection
                      */
                     type GetPrivateConnectionCallback = (error: (Error|null), response?: google.cloud.datastream.v1.PrivateConnection) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1.Datastream#listPrivateConnections}.
+                     * Callback as used by {@link google.cloud.datastream.v1.Datastream|listPrivateConnections}.
                      * @param error Error, if any
                      * @param [response] ListPrivateConnectionsResponse
                      */
                     type ListPrivateConnectionsCallback = (error: (Error|null), response?: google.cloud.datastream.v1.ListPrivateConnectionsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1.Datastream#deletePrivateConnection}.
+                     * Callback as used by {@link google.cloud.datastream.v1.Datastream|deletePrivateConnection}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type DeletePrivateConnectionCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1.Datastream#createRoute}.
+                     * Callback as used by {@link google.cloud.datastream.v1.Datastream|createRoute}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CreateRouteCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1.Datastream#getRoute}.
+                     * Callback as used by {@link google.cloud.datastream.v1.Datastream|getRoute}.
                      * @param error Error, if any
                      * @param [response] Route
                      */
                     type GetRouteCallback = (error: (Error|null), response?: google.cloud.datastream.v1.Route) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1.Datastream#listRoutes}.
+                     * Callback as used by {@link google.cloud.datastream.v1.Datastream|listRoutes}.
                      * @param error Error, if any
                      * @param [response] ListRoutesResponse
                      */
                     type ListRoutesCallback = (error: (Error|null), response?: google.cloud.datastream.v1.ListRoutesResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1.Datastream#deleteRoute}.
+                     * Callback as used by {@link google.cloud.datastream.v1.Datastream|deleteRoute}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
@@ -8663,147 +8663,147 @@ export namespace google {
                 namespace Datastream {
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#listConnectionProfiles}.
+                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|listConnectionProfiles}.
                      * @param error Error, if any
                      * @param [response] ListConnectionProfilesResponse
                      */
                     type ListConnectionProfilesCallback = (error: (Error|null), response?: google.cloud.datastream.v1alpha1.ListConnectionProfilesResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#getConnectionProfile}.
+                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|getConnectionProfile}.
                      * @param error Error, if any
                      * @param [response] ConnectionProfile
                      */
                     type GetConnectionProfileCallback = (error: (Error|null), response?: google.cloud.datastream.v1alpha1.ConnectionProfile) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#createConnectionProfile}.
+                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|createConnectionProfile}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CreateConnectionProfileCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#updateConnectionProfile}.
+                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|updateConnectionProfile}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type UpdateConnectionProfileCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#deleteConnectionProfile}.
+                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|deleteConnectionProfile}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type DeleteConnectionProfileCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#discoverConnectionProfile}.
+                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|discoverConnectionProfile}.
                      * @param error Error, if any
                      * @param [response] DiscoverConnectionProfileResponse
                      */
                     type DiscoverConnectionProfileCallback = (error: (Error|null), response?: google.cloud.datastream.v1alpha1.DiscoverConnectionProfileResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#listStreams}.
+                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|listStreams}.
                      * @param error Error, if any
                      * @param [response] ListStreamsResponse
                      */
                     type ListStreamsCallback = (error: (Error|null), response?: google.cloud.datastream.v1alpha1.ListStreamsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#getStream}.
+                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|getStream}.
                      * @param error Error, if any
                      * @param [response] Stream
                      */
                     type GetStreamCallback = (error: (Error|null), response?: google.cloud.datastream.v1alpha1.Stream) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#createStream}.
+                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|createStream}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CreateStreamCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#updateStream}.
+                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|updateStream}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type UpdateStreamCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#deleteStream}.
+                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|deleteStream}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type DeleteStreamCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#fetchErrors}.
+                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|fetchErrors}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type FetchErrorsCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#fetchStaticIps}.
+                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|fetchStaticIps}.
                      * @param error Error, if any
                      * @param [response] FetchStaticIpsResponse
                      */
                     type FetchStaticIpsCallback = (error: (Error|null), response?: google.cloud.datastream.v1alpha1.FetchStaticIpsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#createPrivateConnection}.
+                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|createPrivateConnection}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CreatePrivateConnectionCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#getPrivateConnection}.
+                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|getPrivateConnection}.
                      * @param error Error, if any
                      * @param [response] PrivateConnection
                      */
                     type GetPrivateConnectionCallback = (error: (Error|null), response?: google.cloud.datastream.v1alpha1.PrivateConnection) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#listPrivateConnections}.
+                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|listPrivateConnections}.
                      * @param error Error, if any
                      * @param [response] ListPrivateConnectionsResponse
                      */
                     type ListPrivateConnectionsCallback = (error: (Error|null), response?: google.cloud.datastream.v1alpha1.ListPrivateConnectionsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#deletePrivateConnection}.
+                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|deletePrivateConnection}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type DeletePrivateConnectionCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#createRoute}.
+                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|createRoute}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CreateRouteCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#getRoute}.
+                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|getRoute}.
                      * @param error Error, if any
                      * @param [response] Route
                      */
                     type GetRouteCallback = (error: (Error|null), response?: google.cloud.datastream.v1alpha1.Route) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#listRoutes}.
+                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|listRoutes}.
                      * @param error Error, if any
                      * @param [response] ListRoutesResponse
                      */
                     type ListRoutesCallback = (error: (Error|null), response?: google.cloud.datastream.v1alpha1.ListRoutesResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#deleteRoute}.
+                     * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|deleteRoute}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
@@ -17973,6 +17973,9 @@ export namespace google {
             /** FieldOptions lazy */
             lazy?: (boolean|null);
 
+            /** FieldOptions unverifiedLazy */
+            unverifiedLazy?: (boolean|null);
+
             /** FieldOptions deprecated */
             deprecated?: (boolean|null);
 
@@ -18009,6 +18012,9 @@ export namespace google {
 
             /** FieldOptions lazy. */
             public lazy: boolean;
+
+            /** FieldOptions unverifiedLazy. */
+            public unverifiedLazy: boolean;
 
             /** FieldOptions deprecated. */
             public deprecated: boolean;
@@ -19811,35 +19817,35 @@ export namespace google {
         namespace Operations {
 
             /**
-             * Callback as used by {@link google.longrunning.Operations#listOperations}.
+             * Callback as used by {@link google.longrunning.Operations|listOperations}.
              * @param error Error, if any
              * @param [response] ListOperationsResponse
              */
             type ListOperationsCallback = (error: (Error|null), response?: google.longrunning.ListOperationsResponse) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations#getOperation}.
+             * Callback as used by {@link google.longrunning.Operations|getOperation}.
              * @param error Error, if any
              * @param [response] Operation
              */
             type GetOperationCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations#deleteOperation}.
+             * Callback as used by {@link google.longrunning.Operations|deleteOperation}.
              * @param error Error, if any
              * @param [response] Empty
              */
             type DeleteOperationCallback = (error: (Error|null), response?: google.protobuf.Empty) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations#cancelOperation}.
+             * Callback as used by {@link google.longrunning.Operations|cancelOperation}.
              * @param error Error, if any
              * @param [response] Empty
              */
             type CancelOperationCallback = (error: (Error|null), response?: google.protobuf.Empty) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations#waitOperation}.
+             * Callback as used by {@link google.longrunning.Operations|waitOperation}.
              * @param error Error, if any
              * @param [response] Operation
              */

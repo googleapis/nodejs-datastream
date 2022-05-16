@@ -99,7 +99,7 @@
                         };
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1.Datastream#listConnectionProfiles}.
+                         * Callback as used by {@link google.cloud.datastream.v1.Datastream|listConnectionProfiles}.
                          * @memberof google.cloud.datastream.v1.Datastream
                          * @typedef ListConnectionProfilesCallback
                          * @type {function}
@@ -132,7 +132,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1.Datastream#getConnectionProfile}.
+                         * Callback as used by {@link google.cloud.datastream.v1.Datastream|getConnectionProfile}.
                          * @memberof google.cloud.datastream.v1.Datastream
                          * @typedef GetConnectionProfileCallback
                          * @type {function}
@@ -165,7 +165,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1.Datastream#createConnectionProfile}.
+                         * Callback as used by {@link google.cloud.datastream.v1.Datastream|createConnectionProfile}.
                          * @memberof google.cloud.datastream.v1.Datastream
                          * @typedef CreateConnectionProfileCallback
                          * @type {function}
@@ -198,7 +198,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1.Datastream#updateConnectionProfile}.
+                         * Callback as used by {@link google.cloud.datastream.v1.Datastream|updateConnectionProfile}.
                          * @memberof google.cloud.datastream.v1.Datastream
                          * @typedef UpdateConnectionProfileCallback
                          * @type {function}
@@ -231,7 +231,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1.Datastream#deleteConnectionProfile}.
+                         * Callback as used by {@link google.cloud.datastream.v1.Datastream|deleteConnectionProfile}.
                          * @memberof google.cloud.datastream.v1.Datastream
                          * @typedef DeleteConnectionProfileCallback
                          * @type {function}
@@ -264,7 +264,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1.Datastream#discoverConnectionProfile}.
+                         * Callback as used by {@link google.cloud.datastream.v1.Datastream|discoverConnectionProfile}.
                          * @memberof google.cloud.datastream.v1.Datastream
                          * @typedef DiscoverConnectionProfileCallback
                          * @type {function}
@@ -297,7 +297,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1.Datastream#listStreams}.
+                         * Callback as used by {@link google.cloud.datastream.v1.Datastream|listStreams}.
                          * @memberof google.cloud.datastream.v1.Datastream
                          * @typedef ListStreamsCallback
                          * @type {function}
@@ -330,7 +330,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1.Datastream#getStream}.
+                         * Callback as used by {@link google.cloud.datastream.v1.Datastream|getStream}.
                          * @memberof google.cloud.datastream.v1.Datastream
                          * @typedef GetStreamCallback
                          * @type {function}
@@ -363,7 +363,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1.Datastream#createStream}.
+                         * Callback as used by {@link google.cloud.datastream.v1.Datastream|createStream}.
                          * @memberof google.cloud.datastream.v1.Datastream
                          * @typedef CreateStreamCallback
                          * @type {function}
@@ -396,7 +396,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1.Datastream#updateStream}.
+                         * Callback as used by {@link google.cloud.datastream.v1.Datastream|updateStream}.
                          * @memberof google.cloud.datastream.v1.Datastream
                          * @typedef UpdateStreamCallback
                          * @type {function}
@@ -429,7 +429,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1.Datastream#deleteStream}.
+                         * Callback as used by {@link google.cloud.datastream.v1.Datastream|deleteStream}.
                          * @memberof google.cloud.datastream.v1.Datastream
                          * @typedef DeleteStreamCallback
                          * @type {function}
@@ -462,7 +462,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1.Datastream#getStreamObject}.
+                         * Callback as used by {@link google.cloud.datastream.v1.Datastream|getStreamObject}.
                          * @memberof google.cloud.datastream.v1.Datastream
                          * @typedef GetStreamObjectCallback
                          * @type {function}
@@ -495,7 +495,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1.Datastream#lookupStreamObject}.
+                         * Callback as used by {@link google.cloud.datastream.v1.Datastream|lookupStreamObject}.
                          * @memberof google.cloud.datastream.v1.Datastream
                          * @typedef LookupStreamObjectCallback
                          * @type {function}
@@ -528,7 +528,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1.Datastream#listStreamObjects}.
+                         * Callback as used by {@link google.cloud.datastream.v1.Datastream|listStreamObjects}.
                          * @memberof google.cloud.datastream.v1.Datastream
                          * @typedef ListStreamObjectsCallback
                          * @type {function}
@@ -561,7 +561,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1.Datastream#startBackfillJob}.
+                         * Callback as used by {@link google.cloud.datastream.v1.Datastream|startBackfillJob}.
                          * @memberof google.cloud.datastream.v1.Datastream
                          * @typedef StartBackfillJobCallback
                          * @type {function}
@@ -594,7 +594,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1.Datastream#stopBackfillJob}.
+                         * Callback as used by {@link google.cloud.datastream.v1.Datastream|stopBackfillJob}.
                          * @memberof google.cloud.datastream.v1.Datastream
                          * @typedef StopBackfillJobCallback
                          * @type {function}
@@ -627,7 +627,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1.Datastream#fetchStaticIps}.
+                         * Callback as used by {@link google.cloud.datastream.v1.Datastream|fetchStaticIps}.
                          * @memberof google.cloud.datastream.v1.Datastream
                          * @typedef FetchStaticIpsCallback
                          * @type {function}
@@ -660,7 +660,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1.Datastream#createPrivateConnection}.
+                         * Callback as used by {@link google.cloud.datastream.v1.Datastream|createPrivateConnection}.
                          * @memberof google.cloud.datastream.v1.Datastream
                          * @typedef CreatePrivateConnectionCallback
                          * @type {function}
@@ -693,7 +693,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1.Datastream#getPrivateConnection}.
+                         * Callback as used by {@link google.cloud.datastream.v1.Datastream|getPrivateConnection}.
                          * @memberof google.cloud.datastream.v1.Datastream
                          * @typedef GetPrivateConnectionCallback
                          * @type {function}
@@ -726,7 +726,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1.Datastream#listPrivateConnections}.
+                         * Callback as used by {@link google.cloud.datastream.v1.Datastream|listPrivateConnections}.
                          * @memberof google.cloud.datastream.v1.Datastream
                          * @typedef ListPrivateConnectionsCallback
                          * @type {function}
@@ -759,7 +759,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1.Datastream#deletePrivateConnection}.
+                         * Callback as used by {@link google.cloud.datastream.v1.Datastream|deletePrivateConnection}.
                          * @memberof google.cloud.datastream.v1.Datastream
                          * @typedef DeletePrivateConnectionCallback
                          * @type {function}
@@ -792,7 +792,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1.Datastream#createRoute}.
+                         * Callback as used by {@link google.cloud.datastream.v1.Datastream|createRoute}.
                          * @memberof google.cloud.datastream.v1.Datastream
                          * @typedef CreateRouteCallback
                          * @type {function}
@@ -825,7 +825,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1.Datastream#getRoute}.
+                         * Callback as used by {@link google.cloud.datastream.v1.Datastream|getRoute}.
                          * @memberof google.cloud.datastream.v1.Datastream
                          * @typedef GetRouteCallback
                          * @type {function}
@@ -858,7 +858,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1.Datastream#listRoutes}.
+                         * Callback as used by {@link google.cloud.datastream.v1.Datastream|listRoutes}.
                          * @memberof google.cloud.datastream.v1.Datastream
                          * @typedef ListRoutesCallback
                          * @type {function}
@@ -891,7 +891,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1.Datastream#deleteRoute}.
+                         * Callback as used by {@link google.cloud.datastream.v1.Datastream|deleteRoute}.
                          * @memberof google.cloud.datastream.v1.Datastream
                          * @typedef DeleteRouteCallback
                          * @type {function}
@@ -20263,7 +20263,7 @@
                         };
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#listConnectionProfiles}.
+                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|listConnectionProfiles}.
                          * @memberof google.cloud.datastream.v1alpha1.Datastream
                          * @typedef ListConnectionProfilesCallback
                          * @type {function}
@@ -20296,7 +20296,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#getConnectionProfile}.
+                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|getConnectionProfile}.
                          * @memberof google.cloud.datastream.v1alpha1.Datastream
                          * @typedef GetConnectionProfileCallback
                          * @type {function}
@@ -20329,7 +20329,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#createConnectionProfile}.
+                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|createConnectionProfile}.
                          * @memberof google.cloud.datastream.v1alpha1.Datastream
                          * @typedef CreateConnectionProfileCallback
                          * @type {function}
@@ -20362,7 +20362,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#updateConnectionProfile}.
+                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|updateConnectionProfile}.
                          * @memberof google.cloud.datastream.v1alpha1.Datastream
                          * @typedef UpdateConnectionProfileCallback
                          * @type {function}
@@ -20395,7 +20395,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#deleteConnectionProfile}.
+                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|deleteConnectionProfile}.
                          * @memberof google.cloud.datastream.v1alpha1.Datastream
                          * @typedef DeleteConnectionProfileCallback
                          * @type {function}
@@ -20428,7 +20428,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#discoverConnectionProfile}.
+                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|discoverConnectionProfile}.
                          * @memberof google.cloud.datastream.v1alpha1.Datastream
                          * @typedef DiscoverConnectionProfileCallback
                          * @type {function}
@@ -20461,7 +20461,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#listStreams}.
+                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|listStreams}.
                          * @memberof google.cloud.datastream.v1alpha1.Datastream
                          * @typedef ListStreamsCallback
                          * @type {function}
@@ -20494,7 +20494,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#getStream}.
+                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|getStream}.
                          * @memberof google.cloud.datastream.v1alpha1.Datastream
                          * @typedef GetStreamCallback
                          * @type {function}
@@ -20527,7 +20527,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#createStream}.
+                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|createStream}.
                          * @memberof google.cloud.datastream.v1alpha1.Datastream
                          * @typedef CreateStreamCallback
                          * @type {function}
@@ -20560,7 +20560,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#updateStream}.
+                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|updateStream}.
                          * @memberof google.cloud.datastream.v1alpha1.Datastream
                          * @typedef UpdateStreamCallback
                          * @type {function}
@@ -20593,7 +20593,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#deleteStream}.
+                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|deleteStream}.
                          * @memberof google.cloud.datastream.v1alpha1.Datastream
                          * @typedef DeleteStreamCallback
                          * @type {function}
@@ -20626,7 +20626,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#fetchErrors}.
+                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|fetchErrors}.
                          * @memberof google.cloud.datastream.v1alpha1.Datastream
                          * @typedef FetchErrorsCallback
                          * @type {function}
@@ -20659,7 +20659,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#fetchStaticIps}.
+                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|fetchStaticIps}.
                          * @memberof google.cloud.datastream.v1alpha1.Datastream
                          * @typedef FetchStaticIpsCallback
                          * @type {function}
@@ -20692,7 +20692,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#createPrivateConnection}.
+                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|createPrivateConnection}.
                          * @memberof google.cloud.datastream.v1alpha1.Datastream
                          * @typedef CreatePrivateConnectionCallback
                          * @type {function}
@@ -20725,7 +20725,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#getPrivateConnection}.
+                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|getPrivateConnection}.
                          * @memberof google.cloud.datastream.v1alpha1.Datastream
                          * @typedef GetPrivateConnectionCallback
                          * @type {function}
@@ -20758,7 +20758,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#listPrivateConnections}.
+                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|listPrivateConnections}.
                          * @memberof google.cloud.datastream.v1alpha1.Datastream
                          * @typedef ListPrivateConnectionsCallback
                          * @type {function}
@@ -20791,7 +20791,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#deletePrivateConnection}.
+                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|deletePrivateConnection}.
                          * @memberof google.cloud.datastream.v1alpha1.Datastream
                          * @typedef DeletePrivateConnectionCallback
                          * @type {function}
@@ -20824,7 +20824,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#createRoute}.
+                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|createRoute}.
                          * @memberof google.cloud.datastream.v1alpha1.Datastream
                          * @typedef CreateRouteCallback
                          * @type {function}
@@ -20857,7 +20857,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#getRoute}.
+                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|getRoute}.
                          * @memberof google.cloud.datastream.v1alpha1.Datastream
                          * @typedef GetRouteCallback
                          * @type {function}
@@ -20890,7 +20890,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#listRoutes}.
+                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|listRoutes}.
                          * @memberof google.cloud.datastream.v1alpha1.Datastream
                          * @typedef ListRoutesCallback
                          * @type {function}
@@ -20923,7 +20923,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream#deleteRoute}.
+                         * Callback as used by {@link google.cloud.datastream.v1alpha1.Datastream|deleteRoute}.
                          * @memberof google.cloud.datastream.v1alpha1.Datastream
                          * @typedef DeleteRouteCallback
                          * @type {function}
@@ -44500,6 +44500,7 @@
                  * @property {boolean|null} [packed] FieldOptions packed
                  * @property {google.protobuf.FieldOptions.JSType|null} [jstype] FieldOptions jstype
                  * @property {boolean|null} [lazy] FieldOptions lazy
+                 * @property {boolean|null} [unverifiedLazy] FieldOptions unverifiedLazy
                  * @property {boolean|null} [deprecated] FieldOptions deprecated
                  * @property {boolean|null} [weak] FieldOptions weak
                  * @property {Array.<google.protobuf.IUninterpretedOption>|null} [uninterpretedOption] FieldOptions uninterpretedOption
@@ -44555,6 +44556,14 @@
                  * @instance
                  */
                 FieldOptions.prototype.lazy = false;
+    
+                /**
+                 * FieldOptions unverifiedLazy.
+                 * @member {boolean} unverifiedLazy
+                 * @memberof google.protobuf.FieldOptions
+                 * @instance
+                 */
+                FieldOptions.prototype.unverifiedLazy = false;
     
                 /**
                  * FieldOptions deprecated.
@@ -44632,6 +44641,8 @@
                         writer.uint32(/* id 6, wireType 0 =*/48).int32(message.jstype);
                     if (message.weak != null && Object.hasOwnProperty.call(message, "weak"))
                         writer.uint32(/* id 10, wireType 0 =*/80).bool(message.weak);
+                    if (message.unverifiedLazy != null && Object.hasOwnProperty.call(message, "unverifiedLazy"))
+                        writer.uint32(/* id 15, wireType 0 =*/120).bool(message.unverifiedLazy);
                     if (message.uninterpretedOption != null && message.uninterpretedOption.length)
                         for (var i = 0; i < message.uninterpretedOption.length; ++i)
                             $root.google.protobuf.UninterpretedOption.encode(message.uninterpretedOption[i], writer.uint32(/* id 999, wireType 2 =*/7994).fork()).ldelim();
@@ -44688,6 +44699,9 @@
                             break;
                         case 5:
                             message.lazy = reader.bool();
+                            break;
+                        case 15:
+                            message.unverifiedLazy = reader.bool();
                             break;
                         case 3:
                             message.deprecated = reader.bool();
@@ -44772,6 +44786,9 @@
                     if (message.lazy != null && message.hasOwnProperty("lazy"))
                         if (typeof message.lazy !== "boolean")
                             return "lazy: boolean expected";
+                    if (message.unverifiedLazy != null && message.hasOwnProperty("unverifiedLazy"))
+                        if (typeof message.unverifiedLazy !== "boolean")
+                            return "unverifiedLazy: boolean expected";
                     if (message.deprecated != null && message.hasOwnProperty("deprecated"))
                         if (typeof message.deprecated !== "boolean")
                             return "deprecated: boolean expected";
@@ -44857,6 +44874,8 @@
                     }
                     if (object.lazy != null)
                         message.lazy = Boolean(object.lazy);
+                    if (object.unverifiedLazy != null)
+                        message.unverifiedLazy = Boolean(object.unverifiedLazy);
                     if (object.deprecated != null)
                         message.deprecated = Boolean(object.deprecated);
                     if (object.weak != null)
@@ -44944,6 +44963,7 @@
                         object.lazy = false;
                         object.jstype = options.enums === String ? "JS_NORMAL" : 0;
                         object.weak = false;
+                        object.unverifiedLazy = false;
                         object[".google.api.resourceReference"] = null;
                     }
                     if (message.ctype != null && message.hasOwnProperty("ctype"))
@@ -44958,6 +44978,8 @@
                         object.jstype = options.enums === String ? $root.google.protobuf.FieldOptions.JSType[message.jstype] : message.jstype;
                     if (message.weak != null && message.hasOwnProperty("weak"))
                         object.weak = message.weak;
+                    if (message.unverifiedLazy != null && message.hasOwnProperty("unverifiedLazy"))
+                        object.unverifiedLazy = message.unverifiedLazy;
                     if (message.uninterpretedOption && message.uninterpretedOption.length) {
                         object.uninterpretedOption = [];
                         for (var j = 0; j < message.uninterpretedOption.length; ++j)
@@ -49070,7 +49092,7 @@
                 };
     
                 /**
-                 * Callback as used by {@link google.longrunning.Operations#listOperations}.
+                 * Callback as used by {@link google.longrunning.Operations|listOperations}.
                  * @memberof google.longrunning.Operations
                  * @typedef ListOperationsCallback
                  * @type {function}
@@ -49103,7 +49125,7 @@
                  */
     
                 /**
-                 * Callback as used by {@link google.longrunning.Operations#getOperation}.
+                 * Callback as used by {@link google.longrunning.Operations|getOperation}.
                  * @memberof google.longrunning.Operations
                  * @typedef GetOperationCallback
                  * @type {function}
@@ -49136,7 +49158,7 @@
                  */
     
                 /**
-                 * Callback as used by {@link google.longrunning.Operations#deleteOperation}.
+                 * Callback as used by {@link google.longrunning.Operations|deleteOperation}.
                  * @memberof google.longrunning.Operations
                  * @typedef DeleteOperationCallback
                  * @type {function}
@@ -49169,7 +49191,7 @@
                  */
     
                 /**
-                 * Callback as used by {@link google.longrunning.Operations#cancelOperation}.
+                 * Callback as used by {@link google.longrunning.Operations|cancelOperation}.
                  * @memberof google.longrunning.Operations
                  * @typedef CancelOperationCallback
                  * @type {function}
@@ -49202,7 +49224,7 @@
                  */
     
                 /**
-                 * Callback as used by {@link google.longrunning.Operations#waitOperation}.
+                 * Callback as used by {@link google.longrunning.Operations|waitOperation}.
                  * @memberof google.longrunning.Operations
                  * @typedef WaitOperationCallback
                  * @type {function}
